@@ -1,0 +1,18 @@
+[18:25:31] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[18:25:32] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[18:25:32] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED fabric-api 0.78.0+1.20 {depends minecraft @ [>=1.20- <1.20.1-]}, ROOT_FORCELOAD_SINGLE fabric-api 0.78.0+1.20]
+[18:25:32] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP fabric-api 0.78.0+1.20 {depends minecraft @ [>=1.20- <1.20.1-]}]
+[18:25:32] [main/INFO] (FabricLoader/Resolution) Fix: add [], remove [playercontrol 1.0], replace [[minecraft 1.19.4] -> add:minecraft 1.20- ([[1.20-,1.20.1-)])]
+[18:25:32] [main/ERROR] (FabricLoader) Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Remove mod 'PlayerControl' (playercontrol) 1.0 (C:\Users\federico\Desktop\PlayerControl\build\resources\main).
+	 - Replace 'Minecraft' (minecraft) 1.19.4 with any version between 1.20- (inclusive) and 1.20.1- (exclusive).
+Unmet dependency listing:
+	 - Mod 'Fabric API' (fabric-api) 0.78.0+1.20 requires any version between 1.20- (inclusive) and 1.20.1- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.19.4!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:148) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]

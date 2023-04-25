@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "playercontrol",
+  "version": "${version}",
+  "name": "PlayerControl",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "homepage": "https://federicolupoli.tech/",
+    "sources": "https://github.com/FedericoLupoli/PlayerControl",
+    "issues": "https://github.com/FedericoLupoli/PlayerControl/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/playercontrol/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "tech.federicolupoli.playercontrol.PlayerControlClient"
+    ],
+    "main": [
+      "tech.federicolupoli.playercontrol.PayerControl"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
