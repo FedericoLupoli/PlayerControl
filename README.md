@@ -10,4 +10,4 @@ Take absolute control of your character.
 # Keybinds
 |Name|Description|Default Bind|
 |-|-|-|
-|Freecam|Enables/disables Fullbright|`X`|
+|Fullbright|Enables/disables Fullbright|`X`|
