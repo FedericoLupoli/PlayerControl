@@ -28,4 +28,17 @@ public class flyMethod {
         player.sendMessage(Text.of("Fly OFF"));
         player.sendAbilitiesUpdate();
     }
+
+    public static void flySpeedUP(ClientPlayerEntity player){
+        float flySpeed = player.getAbilities().getFlySpeed();
+        player.getAbilities().setFlySpeed(flySpeed + 0.1F);
+        player.sendMessage(Text.of("Fly speed is now: " + flySpeed));
+    }
+
+    public static void flySpeedDOWN(ClientPlayerEntity player){
+        float flySpeed = player.getAbilities().getFlySpeed();
+        player.getAbilities().setFlySpeed(flySpeed - 0.1F);
+        player.sendMessage(Text.of("Fly speed is now: " + flySpeed));
+    }
+
 }

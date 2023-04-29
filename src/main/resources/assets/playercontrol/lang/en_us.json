@@ -1,5 +1,7 @@
 {
   "key.category.playercontrol": "Player Control",
   "key.playercontrol.fullbright": "Fullbright",
-  "key.playercontrol.fly": "Fly"
+  "key.playercontrol.fly": "Fly",
+  "key.playercontrol.flyspeed.up": "Fly Speed Increase",
+  "key.playercontrol.flyspeed.down": "Fly Speed Decrease"
 }
