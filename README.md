@@ -13,8 +13,8 @@ Take absolute control of your character.
 |Fullbright|Enables/disables Fullbright|`X`|
 ||
 |Fly|Enables/disables Flight|`Z`|
-|Flyspeed UP|Enables/disables Flight|``|
-|Flyspeed DOWN|Enables/disables Flight|``|
+|Flyspeed UP|Enables/disables Flight|`none`|
+|Flyspeed DOWN|Enables/disables Flight|`none`|
 ||
 
 # Todo
