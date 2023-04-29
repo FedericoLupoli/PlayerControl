@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "playercontrol",
-  "version": "${version}",
+  "version": "1.1.1",
   "name": "PlayerControl",
-  "description": "",
+  "description": "Take absolute control of your character.",
   "authors": [],
   "contact": {
     "homepage": "https://federicolupoli.tech/",

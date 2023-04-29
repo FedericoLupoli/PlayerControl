@@ -8,12 +8,12 @@ import org.lwjgl.glfw.GLFW;
 
 import static tech.federicolupoli.playercontrol.keyCategory.KEY_CATEGORY_PLAYERCONTROL;
 import static tech.federicolupoli.playercontrol.keyCategory.KEY_FULLBRIGHT;
-import static tech.federicolupoli.playercontrol.utils.Effects.disableNightVision;
-import static tech.federicolupoli.playercontrol.utils.Effects.enableNightVision;
+import static tech.federicolupoli.playercontrol.fullbright.Effects.disableNightVision;
+import static tech.federicolupoli.playercontrol.fullbright.Effects.enableNightVision;
 
 public class fullbrightInputHandler {
     public static boolean fullbrightStatus = false;
-    public static KeyBinding fullbrightKey;
+    private static KeyBinding fullbrightKey;
 
     public static void registerkeyInputs(){
         ClientTickEvents.END_CLIENT_TICK.register(client -> {

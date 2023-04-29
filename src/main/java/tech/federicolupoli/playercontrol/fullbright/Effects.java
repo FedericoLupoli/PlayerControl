@@ -1,4 +1,4 @@
-package tech.federicolupoli.playercontrol.utils;
+package tech.federicolupoli.playercontrol.fullbright;
 
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.effect.StatusEffect;
