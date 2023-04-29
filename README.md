@@ -5,10 +5,16 @@ Take absolute control of your character.
 
 # Features
 - Fullbright
-- Freecam (WIP)
+- Fly (flight speed command WIP)
 
 # Keybinds
 |Name|Description|Default Bind|
 |-|-|-|
 |Fullbright|Enables/disables Fullbright|`X`|
 |Fly|Enables/disables Flight|`Z`|
+
+# Todo
+- Flight Speed Command
+- Freecam
+- AFK Automation
+- Autotool
