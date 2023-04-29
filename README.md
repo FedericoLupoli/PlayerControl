@@ -11,3 +11,4 @@ Take absolute control of your character.
 |Name|Description|Default Bind|
 |-|-|-|
 |Fullbright|Enables/disables Fullbright|`X`|
+|Fly|Enables/disables Flight|`Z`|
